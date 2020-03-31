@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS portfolio;
+
+CREATE TABLE portfolio (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  symbol VARCHAR(6) NOT NULL,
+  name VARCHAR(250) NOT NULL,
+  type VARCHAR(250) DEFAULT NULL,
+  number integer(10) NOT NULL
+);
+
+
