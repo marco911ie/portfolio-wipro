@@ -30,9 +30,9 @@ public class SwaggerConfiguration {
 
     private ApiInfo apiInfo() {
             return new ApiInfoBuilder()
-                    .title("Payment Integrity API Documentation")
-                    .description("Payment Integrity API Documentation")
-                    .termsOfServiceUrl("https://github.optum.com/paymentintegrity/opi-api-java-boot")
+                    .title("Basic Portfolio")
+                    .description("Managing Basic portfolio")
+                    .termsOfServiceUrl("https://github.com/marco911ie/portfolio-wipro")
                     .version("1.0")
                     .build();
         }
